@@ -1,0 +1,18 @@
+<div>
+    <h1>Tabla de Multiplicar de {{ numero }}</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Multiplicador</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of resultados">
+                <td>{{ item.multiplicador }}</td>
+                <td>{{ item.resultado }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <button (click)="goToHome()">Volver</button>
+</div>

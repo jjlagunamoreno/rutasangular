@@ -1,0 +1,50 @@
+/* ESTILOS GENERALES DEL MENÚ */
+#menu {
+  display: flex;
+  justify-content: space-evenly;
+  /* DISTRIBUYE LOS ELEMENTOS EQUITATIVAMENTE */
+  padding: 10px;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  /* GRADIENTE EN EL FONDO */
+  border-radius: 10px;
+  /* ESQUINAS REDONDEADAS */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* SOMBRA SUAVE */
+}
+
+/* ELEMENTOS INDIVIDUALES DEL MENÚ */
+#menu li {
+  list-style: none;
+  margin: 0 10px;
+  /* ESPACIADO ENTRE LOS ELEMENTOS */
+}
+
+/* ENLACES DEL MENÚ */
+#menu li a {
+  text-decoration: none;
+  /* SIN SUBRAYADO */
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  /* COLOR DEL TEXTO */
+  padding: 8px 16px;
+  /* ESPACIADO INTERNO */
+  border: 2px solid white;
+  /* BORDE ALREDEDOR */
+  border-radius: 5px;
+  /* BORDES SUAVES */
+  transition: all 0.3s ease;
+  /* ANIMACIÓN SUAVE */
+}
+
+/* EFECTO AL PASAR EL RATÓN */
+#menu li a:hover {
+  background-color: white;
+  /* FONDO BLANCO */
+  color: #4caf50;
+  /* TEXTO VERDE */
+  transform: scale(1.1);
+  /* AUMENTA SU TAMAÑO LIGERAMENTE */
+  border-color: #4caf50;
+  /* CAMBIA EL COLOR DEL BORDE */
+}

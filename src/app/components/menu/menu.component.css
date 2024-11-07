@@ -1,0 +1,32 @@
+/* General del menú */
+#menu {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Fondo oscuro */
+    display: flex; /* Menú horizontal */
+    justify-content: center; /* Centrar el menú */
+  }
+  
+  /* Elementos de la lista */
+  #menu li {
+    padding: 10px 15px;
+  }
+  
+  /* Estilo de los enlaces */
+  #menu li a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto */
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out; /* Transición para los efectos */
+  }
+  
+  /* Efecto al pasar el ratón */
+  #menu li a:hover {
+    background-color: #575757; /* Fondo más claro */
+    color: #ffcc00; /* Color dorado */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado adicional al pasar el ratón */
+  }
+  

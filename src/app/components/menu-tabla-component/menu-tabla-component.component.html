@@ -1,0 +1,13 @@
+<div>
+    <h1>Menú de Tablas de Multiplicar</h1>
+    <ul id="menu">
+        <!-- NÚMERO POR DEFECTO -->
+        <li>
+            <a [routerLink]="['/tabla', 2]">Tabla del 2</a>
+        </li>
+        <!-- NÚMEROS ALEATORIOS -->
+        <li *ngFor="let num of numerosRandom">
+            <a [routerLink]="['/tabla', num]">Tabla del {{ num }}</a>
+        </li>
+    </ul>
+</div>

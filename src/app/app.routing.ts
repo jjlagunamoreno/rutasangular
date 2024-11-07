@@ -3,6 +3,7 @@ import { CineComponent } from "./components/cine/cine.component";
 import { MusicaComponent } from "./components/musica/musica.component";
 import { NotfoundComponent } from "./components/notfound/notfound.component";
 import { NumerodobleComponent } from "./components/numerodoble/numerodoble.component";
+import { TablaMultiplicarRoutingComponent } from "./components/tabla-multiplicar-routing/tabla-multiplicar-routing.component"
 
 //NECESITAMOS UNA SERIE DE MODULOS QUE SE ENCUENTRAN DENTRO DE ANGULAR
 //PARA LA NAVEGACIÓN DE RUTAS
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
     { path: "musica", component: MusicaComponent },
     { path: "numerodoble", component: NumerodobleComponent },
     { path: "numerodoble/:numero", component: NumerodobleComponent },
+    { path: "tabla/:numero", component: TablaMultiplicarRoutingComponent },
     { path: "**", component: NotfoundComponent }//el último siempre será en notfound
 ]
 

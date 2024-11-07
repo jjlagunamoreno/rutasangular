@@ -9,6 +9,8 @@ import { routing, appRoutingProvider } from './app.routing';
 import { MenuComponent } from './components/menu/menu.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { NumerodobleComponent } from './components/numerodoble/numerodoble.component';
+import { TablaMultiplicarRoutingComponent } from './components/tabla-multiplicar-routing/tabla-multiplicar-routing.component';
+import { MenuTablaComponentComponent } from './components/menu-tabla-component/menu-tabla-component.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NumerodobleComponent } from './components/numerodoble/numerodoble.compo
     CineComponent,
     MenuComponent,
     NotfoundComponent,
-    NumerodobleComponent
+    NumerodobleComponent,
+    TablaMultiplicarRoutingComponent,
+    MenuTablaComponentComponent
   ],
   imports: [
     BrowserModule, routing
